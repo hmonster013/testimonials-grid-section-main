@@ -22,8 +22,8 @@ html {
 }
 
 body {
-    width: 1220px;
-    height: 772px;
+    width: 1170px;
+    height: 722px;
     background-color: var(--Light-grayish-blue);
     font-size: 13px;
     font-family: 'Barlow Semi Condensed';
@@ -35,7 +35,7 @@ body {
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
     box-sizing: border-box;
     gap: 24px;
-    margin: 50px;
+    margin: 25px;
 }
 
 .container__card--daniel,
@@ -89,6 +89,9 @@ body {
 .container__card--daniel {
     background-color: var(--Moderate-violet);
     grid-area: 1 / 1 / 2 / 3;
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 10%;
 }
 
 .container__card--jonathan {
